@@ -83,3 +83,84 @@ p {
     margin-top: 32px;
     margin-bottom: 65px;
 }
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .explore {
+        width: 220px;
+        height: 60px;
+        font-size: 26px;
+    }
+    .link-header {
+        font-size: 20px;
+    }
+    .login {
+        width: 110px;
+        height: 38px;
+        font-size: 20px;
+    }
+    main {
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    header {
+        padding: 30px 5% 0;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .link-header {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5% 50px;
+    }
+
+    .img {
+        order: -1; 
+        margin-bottom: 40px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        max-width: none;
+        margin: 25px 0 50px;
+    }
+
+    .explore {
+        width: 200px;
+        height: 56px;
+        font-size: 24px;
+    }
+}
